@@ -5,7 +5,7 @@ import Home from "../pages/WeatherPage";
 const AppRouter = () => {
     return (
         <Routes>
-            <Route path='/' element={<Home/>}/>
+            <Route path='/weather' element={<Home/>}/>
         </Routes>
     );
 };
